@@ -1,9 +1,9 @@
 
 def add(a, b):
     return a + b
+    
+def multiplication(a, b):
+    return a * b
 
-def math_operation(a, b, option):
-    if option == 'multiplication':
-        return a * b
-    if option == 'division':
-        return a / b
+def division(a, b):
+    return a / b
